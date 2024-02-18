@@ -11,11 +11,14 @@ This repository serves as a showcase of my game programming projects from CS3113
 
 ## Projects
 
-### [Simple 2D Scene]
+### [Project 1: Simple 2D Scene](./simple_2d_scene)
 
-This first project encapsulates groundwork for future projects. Topics explored in this project includes: delta time, matrix translation, matrix rotation, and matrix scaling.
+This first project encapsulates basic concepts and establishes groundwork for future projects. Topics explored in this project includes: delta time, matrix translation, matrix rotation, and matrix scaling. The two sprites are from a video game call **Stardew Valley**, it is one of my favorite games to play.
+
+<img width="1104" alt="Screenshot 2024-02-17 at 8 25 34 PM" src="https://github.com/jaylan-wu/CS3113/assets/89537744/f496d6ed-29e4-43f6-8dbb-24cbd361c461">
 
 #### Technologies Used
+
 - Frameworks used: OpenGL
 - Programming Language: C++
 - Developed in Xcode
