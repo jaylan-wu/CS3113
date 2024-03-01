@@ -1,6 +1,6 @@
 # Game Programming Projects
 
-Welcome to my Game Programming Projects! This repository contains a collection of game projects developed using OpenGL in C++.
+Welcome to my Game Programming Projects that have been produced by creating my own game engine! This repository contains a collection of game projects developed using the OpenGL Library in C++.
 
 ## Table of Contents
 - [Project 1: [Simple 2D Scene]](./simple_2d_scene)
@@ -22,4 +22,8 @@ This first project encapsulates basic concepts and establishes groundwork for fu
 ### [Exercise 1: Player Input](./player_input)
 
 This first exercise establishes player input through the keyboard. This allows the up, down, left, and right keys to move a sprite along the screen. By pressing r, we can rotate the sprite clockwise along the z-axis, if c is pressed, the sprite would then rotate counter-clockwise, and pressing s would stop any rotation along the z-axis.
+
+### [Exercise 2: Animation](./animation)
+
+This exercise establishes an understanding of animation through the use of a sprite sheet. By having a sprite sheet of 4 sonic characters, the sprites on the screen rotate through these 4 characters until the user presses the s button. This would stop the rotation through each character and one character would be chosen.
 
