@@ -17,9 +17,9 @@ This first project encapsulates basic concepts and establishes groundwork for fu
 
 <img width="1104" alt="Screenshot 2024-02-17 at 8 25 34 PM" src="https://github.com/jaylan-wu/CS3113/assets/89537744/f496d6ed-29e4-43f6-8dbb-24cbd361c461">
 
-#### Technologies Used
+## Exercises
 
-- Frameworks used: OpenGL
-- Programming Language: C++
-- Developed in Xcode
+### [Exercise 1: Player Input](./player_input)
+
+This first exercise establishes player input through the keyboard. This allows the up, down, left, and right keys to move a sprite along the screen. By pressing r, we can rotate the sprite clockwise along the z-axis, if c is pressed, the sprite would then rotate counter-clockwise, and pressing s would stop any rotation along the z-axis.
 
