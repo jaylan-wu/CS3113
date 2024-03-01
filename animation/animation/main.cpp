@@ -1,6 +1,6 @@
 // Animation Exercise
 // March 1st, 2024
-// Members: Jaylan Wu, 
+// Members: Jaylan Wu, Barut Ural, Pablo Ohop, Ren, Jeff
 
 #define GL_SILENCE_DEPRECATION
 #define STB_IMAGE_IMPLEMENTATION
