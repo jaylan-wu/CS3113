@@ -3,7 +3,11 @@
 Welcome to my Game Programming Projects that have been produced by creating my own game engine! This repository contains a collection of game projects developed using the OpenGL Library in C++.
 
 ## Table of Contents
-- [Project 1: [Simple 2D Scene]](./simple_2d_scene)
+- Projects:
+  - [Project 1: [Simple 2D Scene]](./simple_2d_scene)
+- Exercises:
+  - [Exercise 1: Player Input](./player_input)
+  - [Exercise 2: Animation](./animation)
 
 ## Overview
 
