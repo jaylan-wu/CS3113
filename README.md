@@ -14,7 +14,7 @@ Welcome to my Game Programming Projects that have been produced by creating my o
 
 This repository serves as a showcase of my game programming projects from CS3113 - Introduction to Game Programming. Each project is housed in its respective directory, containing source code, assets, and documentation.
 
-## Projects
+## _Projects_
 
 ### [Project 1: Simple 2D Scene](./simple_2d_scene)
 
@@ -28,7 +28,7 @@ This second project incorporates two important topics in game engineering and de
 
 <img width="600" alt="lsrfm_pong" src="https://github.com/jaylan-wu/CS3113/assets/89537744/9b0c6733-c0b3-4697-96c5-64cc1c45a2d5">
 
-## Exercises
+## _Exercises_
 
 ### [Exercise 1: Player Input](./player_input)
 
