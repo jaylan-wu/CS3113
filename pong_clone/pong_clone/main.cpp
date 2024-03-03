@@ -88,7 +88,7 @@ glm::vec3 g_ball_2_position = glm::vec3(0.0f, 0.0f, 0.0f);
 glm::vec3 g_ball_2_movement = glm::vec3(0.75F, -0.10f, 0.0f);
 
 glm::vec3 g_ball_3_position = glm::vec3(0.0f, 0.0f, 0.0f);
-glm::vec3 g_ball_3_movement = glm::vec3(-0.5f, 0.6f, 0.0f);
+glm::vec3 g_ball_3_movement = glm::vec3(-0.5f, 0.2f, 0.0f);
 
 const float BALL_WIDTH = 0.75f;
 const float BALL_HEIGHT = 0.75f;
@@ -107,7 +107,7 @@ glm::vec3 g_right_board_movement  = glm::vec3(0.0f, 0.0f, 0.0f);
 
 const float BOARD_WIDTH = 0.5f;
 const float BOARD_HEIGHT = 2.5f;
-const float g_board_speed = 2.5f;
+const float g_board_speed = 3.0f;
 
 // -------- BORDER INFORMATION -------- //
 // TOP BORDER //
