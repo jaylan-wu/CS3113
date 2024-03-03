@@ -92,7 +92,7 @@ glm::vec3 g_ball_3_movement = glm::vec3(-0.5f, 0.6f, 0.0f);
 
 const float BALL_WIDTH = 0.75f;
 const float BALL_HEIGHT = 0.75f;
-const float g_ball_speed = 2.5f;
+const float g_ball_speed = 3.0f;
 float g_ball_rotation_angle = 0.0f;
 const float g_ball_rotation_speed = -60.0f;
 int g_number_of_balls = 1;
@@ -395,6 +395,9 @@ void update()
         // -------- BALL UPDATES -------- //
         if (g_number_of_balls >= 1) {
             g_ball_1_matrix    = glm::mat4(1.0f);
+            if (glm::length(g_ball_1_movement) > 1.0f) {        // normalize the movement
+                    g_ball_1_movement = glm::normalize(g_ball_1_movement);
+            }
             g_ball_1_position += g_ball_1_movement * g_ball_speed * delta_time;
             g_ball_1_matrix    = glm::translate(g_ball_1_matrix, g_ball_1_position);
             g_ball_1_matrix    = glm::scale(g_ball_1_matrix, glm::vec3(BALL_WIDTH, BALL_HEIGHT, 1.0f));
@@ -402,6 +405,9 @@ void update()
         }
         if (g_number_of_balls >= 2) {
             g_ball_2_matrix    = glm::mat4(1.0f);
+            if (glm::length(g_ball_2_movement) > 1.0f) {        // normalize the movement
+                    g_ball_2_movement = glm::normalize(g_ball_2_movement);
+            }
             g_ball_2_position += g_ball_2_movement * g_ball_speed * delta_time;
             g_ball_2_matrix    = glm::translate(g_ball_2_matrix, g_ball_2_position);
             g_ball_2_matrix    = glm::scale(g_ball_2_matrix, glm::vec3(BALL_WIDTH, BALL_HEIGHT, 1.0f));
@@ -409,6 +415,9 @@ void update()
         }
         if (g_number_of_balls >= 3) {
             g_ball_3_matrix    = glm::mat4(1.0f);
+            if (glm::length(g_ball_3_movement) > 1.0f) {        // normalize the movement
+                    g_ball_3_movement = glm::normalize(g_ball_3_movement);
+            }
             g_ball_3_position += g_ball_3_movement * g_ball_speed * delta_time;
             g_ball_3_matrix    = glm::translate(g_ball_3_matrix, g_ball_3_position);
             g_ball_3_matrix    = glm::scale(g_ball_3_matrix, glm::vec3(BALL_WIDTH, BALL_HEIGHT, 1.0f));
