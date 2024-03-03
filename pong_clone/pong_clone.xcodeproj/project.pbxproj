@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D333B4302B92D3C400E6A4D1 /* assets in CopyFiles */ = {isa = PBXBuildFile; fileRef = D333B42F2B92D3B500E6A4D1 /* assets */; };
 		D35FCECF2B8812E2005F84AB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D35FCECE2B8812E2005F84AB /* main.cpp */; };
 		D35FCEDA2B88133A005F84AB /* ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D35FCED52B88133A005F84AB /* ShaderProgram.cpp */; };
 		D35FCEDD2B881379005F84AB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35FCEDC2B881379005F84AB /* OpenGL.framework */; };
@@ -25,12 +26,14 @@
 			dstSubfolderSpec = 6;
 			files = (
 				D35FCEE62B8813B8005F84AB /* shaders in CopyFiles */,
+				D333B4302B92D3C400E6A4D1 /* assets in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D333B42F2B92D3B500E6A4D1 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		D35FCECB2B8812E2005F84AB /* pong_clone */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pong_clone; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35FCECE2B8812E2005F84AB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D35FCED52B88133A005F84AB /* ShaderProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderProgram.cpp; sourceTree = "<group>"; };
@@ -81,6 +84,7 @@
 		D35FCECD2B8812E2005F84AB /* pong_clone */ = {
 			isa = PBXGroup;
 			children = (
+				D333B42F2B92D3B500E6A4D1 /* assets */,
 				D35FCED82B88133A005F84AB /* glm */,
 				D35FCED52B88133A005F84AB /* ShaderProgram.cpp */,
 				D35FCED72B88133A005F84AB /* ShaderProgram.h */,
@@ -287,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = pong_clone/assets;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
@@ -303,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = pong_clone/assets;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
