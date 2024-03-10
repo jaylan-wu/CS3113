@@ -1,3 +1,13 @@
+/**
+* Author: Jaylan Wu
+* Assignment: Lunar Lander
+* Date due: 2024-03-09, 11:59pm
+* I pledge that I have completed this assignment without
+* collaborating with anyone else, in conformance with the
+* NYU School of Engineering Policies and Procedures on
+* Academic Misconduct.
+**/
+
 #define LOG(argument) std::cout << argument << '\n'
 #define STB_IMAGE_IMPLEMENTATION
 #define GL_SILENCE_DEPRECATION
@@ -203,7 +213,7 @@ void initialise()
 
     // ————— PLAYER ————— //
     g_game_state.player = new Entity();
-    g_game_state.player->set_position(glm::vec3(0.0f, 4.0f, 0.0f));
+    g_game_state.player->set_position(glm::vec3(0.0f, 3.5f, 0.0f));
     g_game_state.player->set_movement(glm::vec3(0.0f));
     g_game_state.player->set_acceleration(glm::vec3(0.0f, ACC_OF_GRAVITY * 0.01, 0.0f));
     g_game_state.player->set_speed(1.0f);
